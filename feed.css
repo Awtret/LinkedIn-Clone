@@ -1,0 +1,35 @@
+.feed{
+    flex:0.6;
+    margin:0 20px;
+
+}
+
+.feed_container{
+    background-color: white;
+    padding:10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.feed_input{
+border: 1px solid lightgray;
+border-radius: 30px;
+display:flex ;
+padding:10px;
+color:gray;
+padding-left: 25px;
+}
+
+.feed_input>input{
+    flex:1;
+    width: 100%;
+    border:none;
+
+}
+
+.feed_input>form>input{
+    display: none;
+
+}

@@ -1,0 +1,62 @@
+.headers{
+    position:sticky;
+    top:0;
+    z-index:999;
+}
+
+.header {
+    display: flex ;
+    justify-content:space-evenly ;
+    
+    border-bottom:0.1px solid lightgray;
+    padding: top 10px;
+    padding-bottom:10px;
+    width:100%;
+
+}
+.header_left{
+    display:flex ;
+    flex:0.7 ;
+    left: 0px;
+}
+
+.image {
+    object-fit: contain ;
+    height:85px;
+    margin-right: 20px;
+    
+    
+     
+
+}
+
+.search {
+    display: flex ;
+    padding:10 px ;
+
+    border:1px solid lightgray;
+    border-radius:30px;
+    
+    color:gray ;
+    width:100% ;
+    
+
+}
+
+.search > input{
+    outline:none ;
+    border:none ;
+    background:none ;
+    width:100%;
+    flex:1;
+
+}
+.icon{
+margin-top: 20px;
+margin-right: 20px;
+margin-left: 20px;
+}
+.header_right{
+    display:flex;
+}
+
